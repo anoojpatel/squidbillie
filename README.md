@@ -57,7 +57,7 @@ A macOS-first Python prototype for a “DJ stem mixer + Octotrack-style clip lau
     - Clips are a 32-bar "Page" and Roll to the next 32 bar if "Follow" is selected. 
 - CDJ-like Mixer with controls for every Stem lane
 - Waveform Highlights outlining where clips are grabbed from
-- Upload Songs directly from SoundCloud Links
-- Record every action into a JSON Format, as well as generating Tutroials
+- Upload Songs directly from SoundCloud links
+- Record every action into a JSON Format, as well as generating Tutorials for others
 - Simple live coding DSL with access to `mixer`, `transport` and `stems` primitives for the programming inclined
 - Leverage an Audiotool-like Heisenberg Phase-Oscillating Synthesizer in the Live-coding tab
