@@ -1,0 +1,31 @@
+[project]
+name = "squidbilli"
+version = "0.1.0"
+description = "DJ stem mixer + clip launcher prototype"
+readme = "README.md"
+requires-python = ">=3.11,<3.12"
+dependencies = [
+    "dearpygui>=2.1.1",
+    "demucs>=4.0.1",
+    "numpy>=2.4.0",
+    "pedalboard>=0.9.19",
+    "pydub>=0.25.1",
+    "scipy>=1.16.3",
+    "soundfile>=0.12.1",
+    "sounddevice>=0.5.3",
+    "torchaudio<2.9",
+    "yt-dlp>=2024.10.22",
+]
+
+[project.scripts]
+squidbilli = "squidbilli.app:main"
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
