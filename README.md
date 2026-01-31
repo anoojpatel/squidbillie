@@ -1,4 +1,5 @@
-<h1 align="center">DJ Stem Mixer</h1>
+<h1 align="center">SquidBilli</h1>
+<h5 align="center"><i>An Octotrack-like DAW for DJ'ing and Mixing</i></h5>
 <img width="1778" height="1401" alt="Screenshot 2026-01-31 at 2 42 23 PM" src="https://github.com/user-attachments/assets/f10e985b-59d6-4642-b975-0c5e848cc311" />
 
 A macOS-first Python prototype for a “DJ stem mixer + Octotrack-style clip launcher + live-coding param control”.
@@ -58,4 +59,5 @@ A macOS-first Python prototype for a “DJ stem mixer + Octotrack-style clip lau
 - Waveform Highlights outlining where clips are grabbed from
 - Upload Songs directly from SoundCloud Links
 - Record every action into a JSON Format, as well as generating Tutroials
-- Leverage an Audiotool-like Heisenberg Phase-Oscillating Synthesizer
+- Simple live coding DSL with access to `mixer`, `transport` and `stems` primitives for the programming inclined
+- Leverage an Audiotool-like Heisenberg Phase-Oscillating Synthesizer in the Live-coding tab
